@@ -1,0 +1,41 @@
+
+State Machine - |top|serial_parallel:receive_data|state_q
+Name state_q.S3 state_q.S2 state_q.S1 state_q.S0 
+state_q.S0 0 0 0 0 
+state_q.S1 0 0 1 1 
+state_q.S2 0 1 0 1 
+state_q.S3 1 0 0 1 
+
+State Machine - |top|parallel_serial:send_data|state_q
+Name state_q.S0 state_q.S2 state_q.S1 
+state_q.S0 0 0 0 
+state_q.S1 1 0 1 
+state_q.S2 1 1 0 
+
+State Machine - |top|i2c_protocol:i2c|state_q
+Name state_q.S7 state_q.S6 state_q.S5 state_q.S4 state_q.S3 state_q.S2 state_q.S0 state_q.S1 state_q.S8 
+state_q.S1 0 0 0 0 0 0 0 0 0 
+state_q.S0 0 0 0 0 0 0 1 1 0 
+state_q.S2 0 0 0 0 0 1 0 1 0 
+state_q.S3 0 0 0 0 1 0 0 1 0 
+state_q.S4 0 0 0 1 0 0 0 1 0 
+state_q.S5 0 0 1 0 0 0 0 1 0 
+state_q.S6 0 1 0 0 0 0 0 1 0 
+state_q.S7 1 0 0 0 0 0 0 1 0 
+state_q.S8 0 0 0 0 0 0 0 1 1 
+
+State Machine - |top|config_codec:confic_i2c|state_q
+Name state_q.S6 state_q.S5 state_q.S4 state_q.S3 state_q.S2 state_q.S1 state_q.S0 
+state_q.S0 0 0 0 0 0 0 0 
+state_q.S1 0 0 0 0 0 1 1 
+state_q.S2 0 0 0 0 1 0 1 
+state_q.S3 0 0 0 1 0 0 1 
+state_q.S4 0 0 1 0 0 0 1 
+state_q.S5 0 1 0 0 0 0 1 
+state_q.S6 1 0 0 0 0 0 1 
+
+State Machine - |top|button:button_debounce_1|state_q
+Name state_q.IDLE state_q.HOLD state_q.PRESS 
+state_q.IDLE 0 0 0 
+state_q.PRESS 1 0 1 
+state_q.HOLD 1 1 0 
