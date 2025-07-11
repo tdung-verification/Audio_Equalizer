@@ -34,5 +34,5 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 
 * University of Technology(VNU-HCM) for the course on Digital Signal Processing on FPGA.
 * ThS. Nguyễn Tuấn Hùng, the instructor of this course, for his guidance, troubleshooting support, and for providing detailed lab materials throughout the project.
-* 2 group members, Phương Kiến Long and Huỳnh Kiến Hào for their strong collaboration and contributions in designing, implementing, and testing various modules of the Audio Equalizer system.
+* 2 group members, Phương Hiển Long and Huỳnh Kiến Hào for their strong collaboration and contributions in designing, implementing, and testing various modules of the Audio Equalizer system.
 
