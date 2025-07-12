@@ -3,7 +3,7 @@
 This repository contains a Systemverilog implementation of an **Audio Equalizer** designed for FPGA platforms.  
 The system supports real-time audio processing, frequency band filtering, and adjustable gain controls.
 
-It was developed as a semester project at **University of Technology – VNU-HCM** as part of the Digital Signal Processing on FPGA course.
+It was developed as a semester project at **University of Technology (VNU-HCM)** as part of the Digital Signal Processing on FPGA course.
 
 <img width="919" height="507" alt="image" src="https://github.com/user-attachments/assets/135b3f6e-564e-46ec-a19e-bb8f0d070229" />
 
